@@ -1,0 +1,13 @@
+{
+  "name": "strange-recipe-gen",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "setup": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "dev": "concurrently -n \"BACKEND,FRONTEND\" -c \"green,cyan\" \"cd backend && npm run dev\" \"cd frontend && npm run dev\"",
+    "start": "concurrently -n \"BACKEND,FRONTEND\" -c \"green,cyan\" \"cd backend && npm start\" \"cd frontend && npm run dev\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "strange-recipe-backend": "file:.."
+  }
+}
