@@ -1,7 +1,7 @@
 # Strange Recipe Generator
 
 A fully offline, locally hosted AI recipe generator with a retro CRT terminal UI.
-Powered by **Ollama** + **Qwen3:8b**, built with **React** (Vite) + **Express**.
+Powered by **Ollama** + **Qwen3.5:9b**, built with **React** (Vite) + **Express**.
 
 ---
 
